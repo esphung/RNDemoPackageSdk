@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = package['license']
   s.author       = package['author']
   s.platform     = :ios, "12.0"
-  s.source       = { :git => "https://github.com/author/RNDemoPackageSdk.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/esphung/RNDemoPackageSdk.git", :tag => "main" }
   s.source_files  = "RNDemoPackageSdk/**/*.{h,m}"
   s.requires_arc = true
 
